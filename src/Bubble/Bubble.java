@@ -7,6 +7,11 @@ public class Bubble {
 		int temp;
 		boolean check;
 				
+		System.out.println("Desordenado");
+		for(int i = 0; i<vetor.length;i++) {
+			System.out.print(vetor[i]);
+			
+		}
 		for (int i =0; i<vetor.length;++i){
 			check=true;
 			
@@ -24,7 +29,7 @@ public class Bubble {
 			if(check)
 			break;
 		}
-			
+			System.out.println("\nOrdenado");
 		for (int i =0; i<vetor.length;++i){
 			System.out.print(vetor[i]+"");
 		}
